@@ -82,7 +82,7 @@ node {
 
 		checkout([$class: 'GitSCM',
 				branches: [[name: branch]],
-				userRemoteConfigs: [[credentialsId: 'deployjava',
+				userRemoteConfigs: [[credentialsId: 'none',
 			       	url: 'git@github.com:Adityakhandal/systems.git']]])
 	}
 
